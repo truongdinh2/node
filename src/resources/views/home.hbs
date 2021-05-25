@@ -1,0 +1,14 @@
+<div style="display: flex; flex-wrap: wrap;">
+{{#each tcl}}
+    <div class="card" style="width: 300px;margin: 10px">
+        <a href="/nguoi-day/{{this.slug}}">
+            <img class="card-img-top"  src="{{this.img}}" alt="Card image cap">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">{{this.name}} </h5>
+            <p class="card-text">{{this.information}} .</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+{{/each}}
+</div>
